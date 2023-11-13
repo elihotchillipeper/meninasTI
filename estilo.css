@@ -1,0 +1,325 @@
+{
+    margin: 10;
+    padding: 50;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+
+}
+.cabecalho{
+    width: 90%;
+    background-color: rgb(255,255,255); 
+    padding: 50px 8%;
+    float: left;
+
+}
+img{
+    max-width: 100%;
+    width: 50;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu{
+    background-color: rgba(158,171,154);
+    width: 90%;
+    padding: 18px 8%;
+    float: left;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: white;
+    background-color: rgba(158,171,154,);
+    margin-right: 30px;
+    padding: 8px;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: rgba(104,121,70);
+    background-color: rgb(198,210,195);
+    padding: 8px;
+    border-radius: 6px;
+}
+.menu img{
+    float: right;
+    width: 25px;
+    margin-left: 26px;
+}
+.principal{
+    width: 100%;
+    float: left;
+    padding: 18px;
+}
+.sobre{
+    width: 80%;
+    float: left;
+    padding: 5 25px 25px 5;
+}
+.sobre h1{
+    margin-bottom: 25px;
+    color: #ffffff;
+    width: 80%;
+}
+.sobre img{
+    width: 35%;
+    float: left;
+    margin-left: 0 25px 25px 0;
+    margin-right: 18px;
+}
+.sobre p{
+    text-align: justify;
+    padding: 18px;
+    width: 80%;
+    
+}
+.localizacao{
+    float: right;
+    padding: 15px 25px;
+    background-color: #1d2123;
+    border-radius: 12px;
+    color: #ffffff;
+    width: 15%;
+}
+
+
+
+
+.disponiveis{
+    float: left;
+}
+ .filter{
+    float: right;
+    width: 40px;
+    padding: 18px;
+ }
+
+ .titulo{
+    float: left;
+    margin-left: 50px;
+    width: 90%;
+ }
+
+ .botões{
+    width: 50%;
+    margin-left: 33%;
+    margin-top: 90px; 
+}
+.main{
+    width: 100%;
+    float: justify;
+    padding: 18px;
+}
+
+.desenvolvimento p{
+    width: 50%;
+    padding: 30px;
+    text-align: left;
+}
+
+.desenvolvimento h1{
+    width: 50%;
+    padding: 18px;
+    float: left;
+    margin-bottom: 18px;
+}
+
+.feira img{
+    width: 30%;
+    float: right;
+    margin-right: 25px;
+}
+
+.tabela{
+    width: 100%;
+}
+
+.tabela img{
+    width: 35%;
+    margin-left: 35px;
+}
+.tabela h2{
+    margin-left: 45px;
+}
+
+.colab{
+    width: 100%;
+}
+.colaboradores h1{
+    width: 60%;
+    margin-left: 25px;
+    padding: 10px;
+}
+.colaboradores h3{
+    width: 60%;
+    margin-left: 25px;
+    padding: 5px;
+}
+.colab img{
+    width: 25%;
+    margin-left: 25px;
+}
+.join{
+    margin-right: 25px;
+    width: 10%;
+    float: right;
+}
+.diferencial{
+    width: 100%;
+}
+.tratamento{
+    width: 80%;
+    float: left;
+    padding: 5 25px 25px 5;
+}
+.tratamento img{
+    width: 50%;
+    float: left;
+    margin-left: 25px;
+    margin-right: 18px;
+}
+.tratamento p{
+    width: 90%;
+    text-align: justify;
+    margin-left: 25px;
+}
+.tratamento h1{
+    width: 70%;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.icones{
+    width: 100%;
+    float: left;
+    padding: 18px;
+}
+.info{
+    width: 80%;
+    float: left;
+    padding: 5 25px 25px 5;
+}
+.info h1{
+    text-align: justify;
+    padding: 18px;
+    width: 80%;
+}
+.info img{
+    width: 30%;
+    float: left;
+    padding: 5 25px 25px 5;
+    margin-right: 25px;
+}
+.info button{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.info button:hover{
+    background-color: #9eab9a;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+
+.login{
+    background-color: rgb(255,255,255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.login button{
+    padding: 10px;
+    font-size: 15px;
+    width: 22%;
+    border-radius: 15px;
+}
+.login button:hover{
+    background-color: #9eab9a;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+.cadastro button{
+    float: right;
+    margin-right: 25px;
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 15px;
+}
+.cadastro button:hover{
+    background-color: #9eab9a;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+.formulario{
+    background-color: rgb(255,255,255);
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 50%;
+    margin-bottom: 100%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario select{
+    padding: 10px;
+    border-radius: 90px;
+}
+.formulario input{
+    padding: 10px;
+    border-radius: 90px;
+}
+
+.projeto{
+    width: 100%;
+    float: left;
+    padding: 18px;
+}
+.sobreadocao{
+    width: 80%;
+    float: left;
+    padding: 5 25px 25px 5;
+}
+.sobreadocao h1{
+    margin-bottom: 25px;
+    color: #ffffff;
+    width: 80%;
+}
+.sobreadocao img{
+    width: 40%;
+    float: left;
+    margin-left: 0 25px 25px 0;
+    margin-right: 18px;
+}
+.sobreadocao p{
+    text-align: justify;
+    padding: 18px;
+    width: 80%;
+    
+}
+.gifdog{
+    float: right;
+    padding: 15px 25px;
+    width: 16%;
+    margin-right: 25px;
+}
